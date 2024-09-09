@@ -8,9 +8,9 @@ testlogger = DataLogger(name="TestLogger", propagate=True, level="DEBUG")
 def to_kilograms(value: float, unit: str) -> float:
     to_kg = {
         'kg': 1,
-        'g': 0.001,  # 10 ** -3
-        'µg': 1 / (10 ** 6),  # 10 ** -9
-        'mg': 1 / (10 ** 3),  # 10 ** -6
+        'g': 0.001,
+        'µg': 1 / (10 ** 6),
+        'mg': 1 / (10 ** 3),
         'lb': 0.453592
     }
     if unit in to_kg.keys():
@@ -20,10 +20,10 @@ def to_kilograms(value: float, unit: str) -> float:
 def to_meters(value: float, unit: str) -> float:
     to_m = {
         'm': 1,
-        'cm': 0.01,  # 10 ** -2
-        'mm': 0.001,  # 10 ** -3
+        'cm': 0.01,
+        'mm': 0.001,
         'ft': 0.3048,
-        'µm': 1 / (10 ** 6)  # 10 ** -6
+        'µm': 1 / (10 ** 6)
     }
     if unit in to_m.keys():
         return value * to_m[unit]
@@ -47,15 +47,15 @@ def calculate_gravitational_force(values: schemas.MassDistanceBase,
     return gravitational_force
 
 
-def format_scientific(value: float) -> str:
+def format_to_scientific(value: float) -> str:
     if value == 0:
         return "0"
 
-    exponent = int(f"{value:.0e}".split('e')[1])
-    coefficient = value / (10 ** exponent)
+    exp = int(f"{value:.0e}".split('e')[1])
+    coefficient = value / (10 ** exp)
     coefficient_string = f"{coefficient:.2f}"
 
-    return f"{coefficient_string} * 10 ** {exponent} N"
+    return f"{coefficient_string} * 10 ** {exp} N"
 
 
 @testlogger.logger
@@ -63,7 +63,7 @@ def solution(arr_val: List[str], arr_unit: List[str]) -> float:
     mass_distance = schemas.MassDistanceBase(mass_1=arr_val[0], mass_2=arr_val[1], distance=arr_val[2])
     units = schemas.MassDistanceUnitsBase(unit_m1=arr_unit[0], unit_m2=arr_unit[1], unit_d=arr_unit[2])
     force = calculate_gravitational_force(mass_distance, units)
-    formatted_force = format_scientific(force)
+    formatted_force = format_to_scientific(force)
     print(formatted_force)
     return force
 
