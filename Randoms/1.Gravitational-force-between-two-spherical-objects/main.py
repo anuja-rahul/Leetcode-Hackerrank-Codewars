@@ -2,7 +2,7 @@ import schemas
 from typing import List
 from python_datalogger import DataLogger
 
-testlogger = DataLogger(name="TestLogger_03", propagate=True, level="DEBUG")
+testlogger = DataLogger(name="TestLogger_01", propagate=True, level="DEBUG")
 
 
 def to_kilograms(value: float, unit: str) -> float:
