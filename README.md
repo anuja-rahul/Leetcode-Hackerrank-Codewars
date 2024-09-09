@@ -1,5 +1,4 @@
 ![Python](https://img.shields.io/badge/-python-000?style=for-the-badge&logo=python)
-![PYDANTIC](https://img.shields.io/badge/-pydantic-000?style=for-the-badge&logo=pydantic)
 
 # Leetcode-Hackerrank-Codewars
 
