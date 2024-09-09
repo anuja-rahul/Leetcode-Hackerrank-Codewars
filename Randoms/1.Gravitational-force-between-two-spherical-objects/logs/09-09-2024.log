@@ -1,0 +1,10 @@
+2024-09-09 14:05:39,558: c8df31fa-5ca3-4ef6-a9bc-d270b0efcd25__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.
+2024-09-09 14:05:40,954: 5ae063a1-0c55-42c5-9f91-3ed99cd37f3e__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.
+2024-09-09 14:05:42,891: 81d2dc5f-3de1-4038-a57b-79da8aa83bc8__InfoLogger - INFO - [solution] - executed successfully in 0.0010004044 seconds.
+2024-09-09 14:07:08,856: a3aeb9ba-12d3-4d7d-95b0-b728c28571f0__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.
+2024-09-09 14:07:13,551: 8ec8902d-0319-4d96-8b5c-9425ddd12bb5__ErrorLogger - ERROR - [solution] - 1 validation error for MassDistanceBase
+mass_2
+  Input should be greater than 0 [type=greater_than, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.9/v/greater_than
+2024-09-09 14:07:23,676: fbcee971-35ba-416f-ac41-ef9a8d6749b0__InfoLogger - INFO - [solution] - executed successfully in 0.0009999275 seconds.
+2024-09-09 14:07:34,275: c9d5a8bf-565f-409d-ab16-dea4e2e5e061__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.
