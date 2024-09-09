@@ -16,5 +16,14 @@
 
 ### Trying out different types of questions. (in Python)
 
+### Prerequisites :
+- [python ≥ 3.10](https://www.python.org/downloads/)
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuja-rahul&repo=Leetcode-Hackerrank-Codewars&theme=nightowl)
