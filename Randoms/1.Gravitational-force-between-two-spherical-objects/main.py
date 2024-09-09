@@ -68,7 +68,7 @@ def solution(arr_val: List[str], arr_unit: List[str]) -> float:
     return force
 
 
-# test run
 # check the log file for time duration of each run
-answer = solution(arr_val=[100, 16000, 9900], arr_unit=["kg", "g", "m"])
-print(answer)
+solution(arr_val=[100, 16000, 90], arr_unit=["kg", "mg", "mm"])
+solution(arr_val=[150, 100, 94500], arr_unit=["g", "g", "cm"])
+solution(arr_val=[1700, 25700, 456230], arr_unit=["kg", "kg", "m"])
