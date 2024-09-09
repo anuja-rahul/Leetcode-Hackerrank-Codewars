@@ -1,0 +1,20 @@
+![Python](https://img.shields.io/badge/-python-000?style=for-the-badge&logo=python)
+![PYDANTIC](https://img.shields.io/badge/-pydantic-000?style=for-the-badge&logo=pydantic)
+
+# Leetcode-Hackerrank-Codewars
+
+![GitHub](https://img.shields.io/github/forks/anuja-rahul/Leetcode-Hackerrank-Codewars?style&logo=github)
+&nbsp;
+![GitHub](https://img.shields.io/github/license/anuja-rahul/Leetcode-Hackerrank-Codewars?style&logo=github)
+&nbsp;
+![GitHub](https://img.shields.io/github/stars/anuja-rahul/Leetcode-Hackerrank-Codewars?style&logo=github)
+&nbsp;
+![Contributors](https://img.shields.io/github/contributors/anuja-rahul/Leetcode-Hackerrank-Codewars?style&logo=github)
+&nbsp;
+![Watchers](https://img.shields.io/github/watchers/anuja-rahul/Leetcode-Hackerrank-Codewars?style&logo=github)
+&nbsp;
+
+### Trying out different types of questions. (in Python)
+
+
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuja-rahul&repo=Leetcode-Hackerrank-Codewars&theme=nightowl)
