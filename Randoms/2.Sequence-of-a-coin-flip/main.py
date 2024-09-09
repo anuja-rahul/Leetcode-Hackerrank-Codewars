@@ -48,4 +48,4 @@ solution(["HHHTTHHTTHHHTT", 2, 4])      # Pass
 solution(["HHHTHHH", 2, 3])             # Fail
 solution(["HHHTTTTHHH", 3, 3])          # Fail
 solution(["HHTTTHHHTHHHH", 2, 1])       # Pass
-# solution(["HHHTTTTHHHHHHHHH", 9, 1])    # Fail - should return Validation error
+solution(["HHHTTTTHHHHHHHHH", 9, 1])    # Fail - should return Validation error

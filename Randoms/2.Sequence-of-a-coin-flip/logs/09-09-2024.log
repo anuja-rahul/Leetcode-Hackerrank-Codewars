@@ -179,3 +179,13 @@ length
 2024-09-09 17:17:32,226: e44ce26a-e5b9-471a-b264-a26a161e7753__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.
 2024-09-09 17:17:32,226: e44ce26a-e5b9-471a-b264-a26a161e7753__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.
 2024-09-09 17:17:32,227: e44ce26a-e5b9-471a-b264-a26a161e7753__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.
+2024-09-09 17:17:42,805: 6661a3ec-63e3-4cd7-baef-cd708b0f20d2__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.
+2024-09-09 17:17:42,806: 6661a3ec-63e3-4cd7-baef-cd708b0f20d2__InfoLogger - INFO - [solution] - executed successfully in 0.0010020733 seconds.
+2024-09-09 17:17:42,806: 6661a3ec-63e3-4cd7-baef-cd708b0f20d2__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.
+2024-09-09 17:17:42,806: 6661a3ec-63e3-4cd7-baef-cd708b0f20d2__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.
+2024-09-09 17:17:42,806: 6661a3ec-63e3-4cd7-baef-cd708b0f20d2__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.
+2024-09-09 17:17:42,806: 6661a3ec-63e3-4cd7-baef-cd708b0f20d2__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.
+2024-09-09 17:17:42,806: 56729af1-ef2c-43a0-8c0a-31dd77b25e77__ErrorLogger - ERROR - [solution] - 1 validation error for FlipDataInput
+length
+  Input should be less than or equal to 8 [type=less_than_equal, input_value=9, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.9/v/less_than_equal
