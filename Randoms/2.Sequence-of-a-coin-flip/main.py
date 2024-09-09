@@ -37,7 +37,7 @@ def sequence_result(values: FlipDataInput) -> bool:
 def solution(data: List[str | int]) -> bool:
     validated_data = FlipDataInput(sequence=data[0], length=data[1], streak=data[2])
     result = sequence_result(validated_data)
-    print(result)
+    # print(result)
     return result
 
 
