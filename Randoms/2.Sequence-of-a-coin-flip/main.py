@@ -36,6 +36,7 @@ def solution(data: List[str | int]) -> bool:
     return result
 
 
+# Check the log file for time duration of each run
 solution(["HHHTTHHH", 3, 2])        # Pass
 solution(["HHHHTTHHHTTTT", 4, 2])   # Pass
 solution(["HHHTTHHTTH", 2, 3])      # Pass

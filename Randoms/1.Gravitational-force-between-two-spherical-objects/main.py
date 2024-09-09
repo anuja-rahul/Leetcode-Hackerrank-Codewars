@@ -69,6 +69,6 @@ def solution(arr_val: List[str], arr_unit: List[str]) -> float:
 
 
 # test run
-# check the log file for duration
+# check the log file for time duration of each run
 answer = solution(arr_val=[100, 16000, 9900], arr_unit=["kg", "g", "m"])
 print(answer)
