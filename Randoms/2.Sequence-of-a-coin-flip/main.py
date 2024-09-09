@@ -12,30 +12,19 @@ def sequence_result(values: FlipDataInput) -> bool:
 
     c_l = 0
     c_s = 0
-    p_c = sequence[0]
 
     for i in range(len(sequence)):
-        c_c = sequence[i]
         p_c = sequence[i-1]
-
-        # print(f"curr: {c_c}, prev: {p_c}")
-
         if sequence[i] == p_c or i == 0:
             c_l += 1
         else:
             c_l = 1
-
         if c_l == length:
             c_s += 1
-
         if c_l > length:
             c_s -= 1
-
-        p_c = sequence[i]
-
     if c_s == streak:
         return True
-
     return False
 
 
@@ -47,6 +36,8 @@ def solution(data: List[str | int]) -> bool:
     return result
 
 
-solution(["HHHTTHHH", 3, 2])
-solution(["HHHHTTHHHTTTT", 4, 2])
-solution(["HHHTTHHTTH", 2, 3])
+solution(["HHHTTHHH", 3, 2])        # Pass
+solution(["HHHHTTHHHTTTT", 4, 2])   # Pass
+solution(["HHHTTHHTTH", 2, 3])      # Pass
+solution(["HHHTHHH", 2, 3])         # Fail
+solution(["HHHTTTTHHH", 3, 3])      # Fail
