@@ -8,3 +8,23 @@ mass_2
     For further information visit https://errors.pydantic.dev/2.9/v/greater_than
 2024-09-09 14:07:23,676: fbcee971-35ba-416f-ac41-ef9a8d6749b0__InfoLogger - INFO - [solution] - executed successfully in 0.0009999275 seconds.
 2024-09-09 14:07:34,275: c9d5a8bf-565f-409d-ab16-dea4e2e5e061__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.
+2024-09-09 14:21:35,707: eb52eec1-1230-403d-ac2a-348e07daad02__InfoLogger - INFO - [solution] - executed successfully in 0.0010049343 seconds.
+2024-09-09 14:21:46,649: bd2efd9a-f594-4d61-9bf7-e0ef4de3a074__ErrorLogger - ERROR - [solution] - 1 validation error for MassDistanceUnitsBase
+unit_m2
+  String should match pattern '^(kg|g|µg|mg|lb)$' [type=string_pattern_mismatch, input_value='lg', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+2024-09-09 14:21:58,498: a9f159e0-f6d0-4c5c-ad94-d87b3fd0a928__ErrorLogger - ERROR - [solution] - 1 validation error for MassDistanceUnitsBase
+unit_m2
+  String should match pattern '^(kg|g|µg|mg|lb)$' [type=string_pattern_mismatch, input_value='lg', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+2024-09-09 14:22:09,987: f6f8535c-2534-42a4-920f-e03ba8446622__ErrorLogger - ERROR - [solution] - 1 validation error for MassDistanceUnitsBase
+unit_m2
+  String should match pattern '^(kg|g|µg|mg|lb)$' [type=string_pattern_mismatch, input_value='lg', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+2024-09-09 14:22:13,619: 3d5051fa-4a85-48c4-a5b8-ef4010a3ef2d__InfoLogger - INFO - [solution] - executed successfully in 0.0010006428 seconds.
+2024-09-09 14:23:24,055: efa288fb-03ef-40ed-b014-8fdfa9b960e1__ErrorLogger - ERROR - [solution] - 1 validation error for MassDistanceUnitsBase
+unit_m2
+  String should match pattern '^(kg|g|µg|mg|lb)$' [type=string_pattern_mismatch, input_value='gg', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+2024-09-09 14:23:31,249: 79d65368-b32c-40e6-836e-466e80077de6__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.
+2024-09-09 14:24:18,338: 26119569-f70b-41a1-a2f3-eefa5d4b11d3__InfoLogger - INFO - [solution] - executed successfully in 0.0000000000 seconds.

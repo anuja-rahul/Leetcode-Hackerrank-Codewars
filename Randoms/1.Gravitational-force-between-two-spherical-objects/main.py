@@ -2,6 +2,8 @@ import schemas
 from typing import List
 from python_datalogger import DataLogger
 
+testlogger = DataLogger(name="TestLogger", propagate=True, level="DEBUG")
+
 
 def to_kilograms(value: float, unit: str) -> float:
     to_kg = {
@@ -56,7 +58,7 @@ def format_scientific(value: float) -> str:
     return f"{coefficient_string} * 10 ** {exponent} N"
 
 
-@DataLogger.logger
+@testlogger.logger
 def solution(arr_val: List[str], arr_unit: List[str]) -> float:
     mass_distance = schemas.MassDistanceBase(mass_1=arr_val[0], mass_2=arr_val[1], distance=arr_val[2])
     units = schemas.MassDistanceUnitsBase(unit_m1=arr_unit[0], unit_m2=arr_unit[1], unit_d=arr_unit[2])
@@ -67,5 +69,6 @@ def solution(arr_val: List[str], arr_unit: List[str]) -> float:
 
 
 # test run
-answer = solution(arr_val=[100, 16000, 9900], arr_unit=["kg", "kg", "m"])
+# check the log file for duration
+answer = solution(arr_val=[100, 16000, 9900], arr_unit=["kg", "g", "m"])
 print(answer)
