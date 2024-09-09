@@ -2,7 +2,7 @@ from schemas import FlipDataInput
 from typing import List
 from python_datalogger import DataLogger
 
-testlogger = DataLogger(name="TestLogger", propagate=True, level="DEBUG")
+testlogger = DataLogger(name="TestLogger_02", propagate=True, level="DEBUG")
 
 
 def sequence_result(values: FlipDataInput) -> bool:
