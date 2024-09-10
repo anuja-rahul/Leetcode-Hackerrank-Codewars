@@ -37,8 +37,8 @@ for i in range(0, len(grid) - 3):
 
 max_product_2 = 0
 for i in range(3, len(grid)):
-    for j in range(3, len(grid)):
-        product = grid[i][j] * grid[i-1][j-1] * grid[i-2][j-2] * grid[i-3][j-3]
+    for j in range(0, len(grid) - 3):
+        product = grid[i][j] * grid[i-1][j+1] * grid[i-2][j+2] * grid[i-3][j+3]
         if product > max_product_2:
             max_product_2 = product
 
