@@ -46,5 +46,3 @@ for i in range(0, len(grid3)):
 
 print(data_list)
 print(sum(data_list))
-
-
