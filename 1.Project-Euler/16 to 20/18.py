@@ -28,5 +28,4 @@ def maximum_num(triangle):
     return triangle[0][0]
 
 
-max_total = maximum_num(grid3)
-print(f"Total: {max_total}")
+print(f"Total: {maximum_num(grid3)}")
