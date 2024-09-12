@@ -18,31 +18,15 @@ grid_str = """75
 grid1 = grid_str.split('\n')
 grid2 = [x.split(" ") for x in grid1]
 grid3 = [[int(y) for y in x] for x in grid2]
-# print(grid3)
 
-data_list = []
 
-# TODO: fix this
+def maximum_num(triangle):
+    for row in range(len(triangle) - 2, -1, -1):
+        for col in range(len(triangle[row])):
+            triangle[row][col] += max(triangle[row + 1][col], triangle[row + 1][col + 1])
 
-idx = 0
-for i in range(0, len(grid3)):
-    if len(grid3[i]) % 2 == 1:
-        idx_list = [idx - 1, idx]
-    else:
-        idx_list = [idx + 1, idx]
-    print(idx_list)
-    # print(grid3[i])
-    temp_list = []
+    return triangle[0][0]
 
-    for nums in grid3[i]:
-        temp_idx = grid3[i].index(nums)
-        if temp_idx in idx_list:
-            temp_list.append(nums)
 
-    idx = grid3[i].index(max(temp_list))
-
-    print(idx, max(temp_list))
-    data_list.append(max(temp_list))
-
-print(data_list)
-print(sum(data_list))
+max_total = maximum_num(grid3)
+print(f"Total: {max_total}")
